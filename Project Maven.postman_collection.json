@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "f5d8ac5f-2f0e-4dad-9ffc-36777562a23d",
+		"name": "Project Maven",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34033827"
+	},
+	"item": [
+		{
+			"name": "Without name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/HelloWorld",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"HelloWorld"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "With name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/HelloWorld?name=edu",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"HelloWorld"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "edu"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

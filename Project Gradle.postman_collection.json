@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "bfe67ac6-c04b-4764-9fc7-8b41b57e070e",
+		"name": "Project Gradle",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "34033827"
+	},
+	"item": [
+		{
+			"name": "Without name",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "With name",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
